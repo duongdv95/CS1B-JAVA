@@ -1,5 +1,6 @@
 package com.company;
 //Daniel Duong
+//Seating Chart
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
