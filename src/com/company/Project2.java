@@ -13,13 +13,10 @@ public class Project2 {
         employeeObjects[1] = gary;
         employeeObjects[2] = jim;
 
-        for(int i = 0; i < employeeObjects.length; i++) {
-            if(employeeObjects[i] == jim) {
-                System.out.println(employeeObjects[i].payCheck(20));
-            } else {
-                System.out.println(employeeObjects[i].payCheck());
-            }
-        }
+        System.out.println(employeeObjects[0].payCheck());
+        System.out.println(employeeObjects[1].payCheck());
+        System.out.println(employeeObjects[2].payCheck(20));
+
     }
 }
 
